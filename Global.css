@@ -292,7 +292,7 @@ footer {
   padding: 3rem 3.5rem;
 }
 
-#footer_contacts h1 {
+#footer_contacts h1, p {
   margin-bottom: 0.75rem;
   color: #1F1F1F;
 }
