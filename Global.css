@@ -349,7 +349,7 @@ footer {
 }
 
 .footer-list .footer-link {
-  color: var(--color-neutral-30);
+  color: #1f1f1f;
   transition: all 0.4s;
 }
 
