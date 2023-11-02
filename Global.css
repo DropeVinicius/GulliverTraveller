@@ -173,16 +173,43 @@ header {
   justify-content: center;
 }
 
-.submenu .submenu_icon{
+.submenu .submenu_icon {
   font-size: 18px;
   margin: 0px 16px;
   padding: 4px;
   border-radius: 40px;
 }
 
-.submenu_icon:hover{
+.submenu_icon:hover {
   cursor: pointer;
   background-color: #dddddd;
+}
+.container {
+  background-color: transparent;
+}
+.input-wrapper { 
+  padding: 8px 12px;
+  display: flex; 
+  align-items: center;
+  gap: 6px;
+  background-color: #CCC;
+  border-radius: 16px;
+}
+
+.input-wrapper i{
+  color: #FFF;
+  cursor: pointer;
+}
+
+.input-wrapper input {
+  background-color: transparent;
+  border: none;
+  color: #FFF;
+  font-size: 20px;
+}
+
+.input-wrapper input:focus-visible {
+  outline: none;
 }
 
 .search_input{
