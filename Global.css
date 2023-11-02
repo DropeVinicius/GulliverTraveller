@@ -115,7 +115,7 @@
 }
 
 h1{
-  font-size: 26px;
+  font-size: 24px;
 }
 
 h2{
@@ -154,12 +154,12 @@ header {
 #menu_options li{
   display: inline;
   margin: 0px 10px;
-  font-size: 18px;
+  font-size: 16px;
   cursor: pointer;
 }
 
 #menu_options li:hover{
-  border-bottom: #569fcf 2px solid;
+  border-bottom: #ffffff 2px solid;
 }
 
 .submenu_div{
