@@ -458,3 +458,115 @@ footer {
     padding: 3rem 2rem;
   }
 }
+
+.star {
+  background-image: url("../images/main/estrela.png");
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+}
+
+.avaliacao-box {
+  display: flex;
+  align-items: center;
+  padding-bottom: 10px;
+}
+
+#slider-banner{
+  max-height: 274px;
+  z-index: 1;
+  position: relative;
+}
+#slider-banner .carousel-inner{
+  background-image: url('../images/filet.jpg');
+}
+#slider-banner .carousel-inner .carousel-item img{
+  height: 274px;
+}
+#search {
+  height: 36px;
+  margin-top: -20px;
+  z-index: 2;
+  position: relative;
+  background-color: #fff;
+}
+#search input {
+  border: none;
+}
+#promocoes img {
+  width: 100%;
+  height: 100%;
+}
+
+.star {
+  background-image: url("images/main/estrela.png");
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+}
+
+.avaliacao-box {
+  display: flex;
+  align-items: center;
+  padding-bottom: 10px;
+}
+
+.container-forms {
+  padding-bottom: 80px;
+}
+
+.icons {
+  width: 20px;
+  height: 20px;
+  top: 18px;
+  bottom: 18px;
+  
+  pointer-events: none;
+  display: block;
+}
+
+.nav-item {
+  display: flex;
+}
+.nav-item .icons{
+  position: relative;
+  top:0;
+  bottom: 0;
+}
+@media screen and (max-width: 991px) {
+  #search {
+      height: auto;
+      outline: none !important;
+  }
+  #search input {
+      border-bottom: 1px solid #ccc;
+  }
+  #slider-banner .carousel-inner .carousel-item img {
+      height: auto;
+      max-width: 100%;
+  }
+  .submit {
+      position: relative !important;
+  }
+  .submit button {
+      border: none !important;
+      max-width: 206px !important;
+      background-color:#553596 !important;
+      color: #fff !important;
+      width: 100%;
+      margin:0 auto;
+      display: block;
+      margin-top: 6px;
+  }
+ 
+  #navbarSupportedContent{
+      width: 100%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  #searchInbanner button{
+      position: absolute;
+      right: 0;
+  }
+}
