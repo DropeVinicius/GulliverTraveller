@@ -1,0 +1,412 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&display=swap');
+
+@media only screen and (max-width: 800px) {
+  h1{
+    font-size: 22px !important;
+  }
+
+  .mobile_view{
+  display: block !important;
+  }
+
+  .header_div{
+    padding: 20px 20px !important;
+  }
+
+  #menu_option_holder{
+    display: none !important;
+  }
+  
+  .header_div{
+    justify-content: center !important;
+    align-items: center;
+  }
+
+  .dropdown_menu{
+    font-size: 25px;
+    display: block !important;
+    align-self: flex-start;
+  }
+
+  .submenu{
+    margin: 8px 0px;
+    overflow: scroll;
+    height: 25px;
+    display: block !important;
+  }
+
+  .submenu_div .arrow{
+    margin-top: -15px;
+  }
+  
+
+  .submenu_list{
+    white-space: nowrap;
+    text-align: center;
+  }
+
+  .submenu_icon{
+    margin: auto;
+    
+  }
+
+  .submenu_icon{
+    font-size: 12px !important;
+    display: flex;
+  }
+
+  .banner{
+    height: unset !important;
+  }
+
+  .scroll_div{
+    width: 100%;
+    height: 320px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+  }
+
+  .mais_buscados_section .arrow{
+    font-size: 25px;
+  }
+
+  .mais_buscados_div{
+    width: fit-content !important;
+    height: 270px;
+  }
+
+  .image_holder img{
+    width: 200px !important;
+    height: 200px !important;
+    margin: 0px 20px;
+  }
+
+  .about{
+    display: block !important;
+    height: unset !important;
+    padding: 20px 10px !important;
+    margin-top: 140px !important;
+  }
+
+  .about_image_holder {
+    margin-left: 0px !important;
+    margin-top: -140px;
+    width: unset !important;
+  }
+
+  .about_image_holder img{
+    margin: 20px 0px 0px -20px;
+    height: 350px !important;
+  }
+
+  .about_text_div{
+    width: unset !important;
+    margin: 20px 0px 0px 0px !important;
+    padding: 0px 30px !important;
+  }
+
+  .about_text_div p{
+    font-size: 18px !important;
+  }
+}
+
+*{
+  font-family: 'Arial Narrow', sans-serif !important;
+}
+
+h1{
+  font-size: 26px;
+}
+
+h2{
+  font-size: 25px;
+  margin: 40px;
+  font: 900;
+  font-weight:bold;
+}
+
+header {
+  background: #307219;
+  background: #307219;
+  color: #fff;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  font-weight: 900;
+}
+
+.mobile_view{
+  display: none;
+}
+
+.card{
+  margin: 0px 20px;
+}
+
+.header_div{
+  padding: 20px 35px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+#menu_options li{
+  display: inline;
+  margin: 0px 10px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+#menu_options li:hover{
+  border-bottom: #569fcf 2px solid;
+}
+
+.submenu_div{
+  margin-top: 10px;
+}
+
+.submenu{
+  text-align: center;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.submenu .submenu_icon{
+  font-size: 18px;
+  margin: 0px 16px;
+  padding: 4px;
+  border-radius: 40px;
+}
+
+.submenu_icon:hover{
+  cursor: pointer;
+  background-color: #dddddd;
+}
+
+.search_input{
+  width: 350px;
+  background-color: #D9D9D9;
+  border: none;
+  border-radius: 14px;
+  outline: none;
+  padding: 6px 12px;
+}
+
+.banner{
+  height: 300px;
+}
+
+.banner img{
+  object-fit: fill;
+  width: 100%;
+}
+
+.scroll_div{
+  width: 100%;
+}
+
+.mais_buscados_div{
+  width: 100%;
+}
+
+.image_holder{
+
+}
+
+.image_holder img{
+  background-color: aqua;
+  height: 14vw;
+  width: 14vw;
+}
+
+.image_subtitle{
+  font-size: 22px;
+  display: flex;
+  justify-content: center;
+  color: #6f6d6d;
+  font-weight: bold;
+  text-align: center;
+}
+
+.saiba_mais{
+  width: fit-content;
+  padding: 5px 15px;
+  margin: 8px auto 0px auto;
+  background-color: #449926;
+  border-radius: 15px;
+  color: #fff;
+  outline: none;
+  border: 0;
+}
+
+.saiba_mais:hover{
+  background-color: #235213;
+}
+
+.about{
+  margin-top: 100px;
+  background-color: #449926;
+  height: 100px;
+  padding: 150px 0px;
+  color: #fff;
+}
+
+.about_image_holder{
+}
+
+.about_image_holder img{
+  height: 300px;
+}
+
+.about_text_div{
+  width: 40%;
+  margin-left: 150px;
+}
+.about_text_div p{
+  font-size: 18px;
+}
+
+:root {
+  --color-neutral-0: #0e0c0c;
+  --color-neutral-10: #171717;
+  --color-neutral-30: #a8a29e;
+  --color-neutral-40: #f5f5f5;
+}
+
+
+footer {
+  width: 100%;
+  color: var(--color-neutral-40);
+}
+
+.footer-link {
+  text-decoration: none;
+}
+
+#footer_content {
+  background-color: #444444;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 3rem 3.5rem;
+}
+
+#footer_contacts h1 {
+  margin-bottom: 0.75rem;
+}
+
+#footer_social_media {
+  display: flex;
+  gap: 2rem;
+  margin-top: 1.5rem;
+}
+
+#footer_social_media .footer-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2.5rem;
+  width: 2.5rem;
+  color: var(--color-neutral-40);
+  border-radius: 50%;
+  transition: all 0.4s;
+}
+#footer_social_media .footer-link i {
+  font-size: 1.25rem;
+}
+
+
+#footer_social_media .footer-link:hover {
+  opacity: 0.8;
+}
+
+#instagram {
+  background: linear-gradient(#7f37c9, #ff2992, #ff9807);
+}
+
+#facebook {
+  background-color: #4267b3;
+}
+
+#whatsapp {
+  background-color: #25d366;
+}
+
+.footer-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  list-style: none;
+}
+
+.footer-list .footer-link {
+  color: var(--color-neutral-30);
+  transition: all 0.4s;
+}
+
+.footer-list .footer-link:hover {
+  color: #449926;
+}
+
+#footer_subscribe {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+#footer_subscribe p {
+  color: var(--color-neutral-30);
+}
+
+#input_group {
+  display: flex;
+  align-items: center;
+  background-color: var(--color-neutral-0);
+  border-radius: 4px;
+}
+
+#input_group input {
+  all: unset;
+  padding: 0.75rem;
+  width: 100%;
+}
+
+#input_group button {
+  background-color: #449926;
+  border: none;
+  color: var(--color-neutral-40);
+  padding: 0px 1.25rem;
+  font-size: 1.125rem;
+  height: 100%;
+  border-radius: 0px 4px 4px 0px;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+
+#input_group button:hover {
+  opacity: 0.8;
+}
+
+#footer_copyright {
+  display: flex;
+  justify-content: center;
+  background-color: var(--color-neutral-0);
+  font-size: 0.9rem;
+  padding: 1.5rem;
+  font-weight: 100;
+}
+
+@media screen and (max-width:768px) {
+  #footer_content{
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+  }
+}
+
+@media screen and (max-width:426px) {
+  #footer_content{
+    grid-template-columns: repeat(1, 1fr);
+    padding: 3rem 2rem;
+  }
+}
