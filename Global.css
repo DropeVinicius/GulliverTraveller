@@ -294,6 +294,7 @@ footer {
 
 #footer_contacts h1 {
   margin-bottom: 0.75rem;
+  color: #1F1F1F;
 }
 
 #footer_social_media {
@@ -338,6 +339,10 @@ footer {
   flex-direction: column;
   gap: 0.75rem;
   list-style: none;
+}
+.footer-list h3 {
+  color: #1f1f1f;
+  font-weight: bold;
 }
 
 .footer-list .footer-link {
