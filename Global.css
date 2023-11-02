@@ -294,8 +294,12 @@ footer {
 
 #footer_contacts h1 {
   margin-bottom: 0.75rem;
+  color: #1f1f1f;
+  font-weight: bold;
 }
-
+#footer_contacts p{
+  color: #1f1f1f;
+}
 #footer_social_media {
   display: flex;
   gap: 2rem;
@@ -345,7 +349,7 @@ footer {
 }
 
 .footer-list .footer-link {
-  color: var(--color-neutral-30);
+  color: #1f1f1f;
   transition: all 0.4s;
 }
 
