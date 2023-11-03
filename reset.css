@@ -40,9 +40,3 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-.star {
-	background-image: url("../images/main/estrela.png");
-	display: inline-block;
-	width: 16px;
-	height: 16px;
-  }
