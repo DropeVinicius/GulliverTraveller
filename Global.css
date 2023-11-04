@@ -139,9 +139,55 @@ header {
   display: none;
 }
 
-.card{
-  margin: 0px 20px;
+
+.card-container {
+  font-weight: bold;
+  display: flex;
+  justify-content: center; /* Centralizar os cards */
+  flex-wrap: wrap;
+  gap: 40px; /* Espaço entre os cards */
 }
+
+.card {
+  width: 290px; /* Largura fixa dos cards */
+  height: 224px; /* Altura fixa dos cards */
+  margin: 5px; /* Margem dos cards para separá-los */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  position: relative;
+  transition: transform 0.3s ease; /* Animacao de zoom suave para a imagem */
+  border-radius: 10px; /* Adiciona um border-radius sutil aos cards */
+}
+
+.card:hover {
+  transform: scale(1.05); /* Efeito de zoom suave ao passar o mouse na imagem */
+}
+
+.card img {
+  width: 100%;
+  height: 100%; /* Altura e largura 100% para preencher o card */
+  transition: transform 0.3s ease; /* Animacao de zoom suave para a imagem */
+  border-radius: 10px; /* Adiciona um border-radius sutil às imagens */
+}
+
+.card-description {
+  width: 100%;
+  background-color: white; /* Fundo branco para a área de descrição */
+  padding: 10px; /* Ajuste o tamanho da descrição aqui (padding) */
+  position: absolute;
+  bottom: 0; /* Descrição fixa abaixo do card */
+  left: 0;
+  right: 0;
+  border-radius: 7px 1px; /* Adiciona um border-radius sutil à descrição */
+}
+
+/* Media query para dispositivos móveis */
+@media (max-width: 767px) {
+  .card {
+      width: 100%; /* Largura responsiva para dispositivos móveis */
+  }
+}
+
 
 .header_div{
   padding: 20px 35px;
@@ -186,6 +232,8 @@ header {
 }
 .container {
   background-color: transparent;
+  font-weight: bold;
+  font-size: 30px;
 }
 .input-wrapper { 
   padding: 8px 12px;
