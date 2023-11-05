@@ -173,12 +173,12 @@ header {
 .card-description {
   width: 100%;
   background-color: white; /* Fundo branco para a área de descrição */
-  padding: 10px; /* Ajuste o tamanho da descrição aqui (padding) */
+  padding: 3px; /* Ajuste o tamanho da descrição aqui (padding) */
   position: absolute;
   bottom: 0; /* Descrição fixa abaixo do card */
   left: 0;
   right: 0;
-  border-radius: 7px 1px; /* Adiciona um border-radius sutil à descrição */
+  border-radius: 7px; /* Adiciona um border-radius sutil à descrição */
 }
 
 .card-section {
