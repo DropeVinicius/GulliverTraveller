@@ -213,6 +213,19 @@ header {
   border-radius: 10px;
 }
 
+.card-title{
+  font-size: 18px;
+  font-weight: normal;
+}
+
+p {
+  font-weight: normal;
+}
+
+h1 {
+  font-size: 20px;
+}
+
 h3 {
   font-size: 24px;
   margin: 5px ;
@@ -463,6 +476,8 @@ p {
 
 footer { 
   width: 100%;
+  text-justify: auto;
+  text-align: center;
   color: var(--color-neutral-40);
 }
 
