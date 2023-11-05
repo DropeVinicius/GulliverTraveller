@@ -198,8 +198,31 @@ header {
 }
 
 .card-hotel img {
-  width: 100%; /* Defina a largura das imagens como 100% */
+  max-width: 200px; /* Defina a largura das imagens como 100% */
+  height:auto;
   max-height: 200px; /* Defina a altura máxima desejada para as imagens */
+  border-radius: 10px;
+}
+
+.card-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card-hotel {
+  flex: 1;
+  margin: 10px;
+  padding: 20px;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  text-align: center;
+  position: relative;
+}
+
+.card-hotel img {
+  max-width: 100%;
+  height: auto;
   border-radius: 10px;
 }
 
@@ -240,13 +263,14 @@ p {
 @media (max-width: 768px) {
   .card-hotel {
     width: 100%;
-  max-width: 300px; /* Define a largura máxima para dispositivos móveis */
+    max-width: 100%; /* Remova a largura máxima para dispositivos móveis */
   }
-
+  
   .card-hotel img {
     max-height: none; /* Remova a altura máxima para dispositivos móveis */
   }
 }
+
 
 .h1-with-icon {
   font-size: 24px;
