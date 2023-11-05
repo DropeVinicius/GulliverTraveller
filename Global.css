@@ -187,6 +187,15 @@ header {
       width: 100%; /* Largura responsiva para dispositivos móveis */
   }
 }
+.h1-with-icon {
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+}
+
+.h1-icon {
+   margin-left: 10px;
+}
 
 
 .header_div{
@@ -197,15 +206,30 @@ header {
   justify-content: space-between;
 }
 
-#menu_options li{
+#menu_options li {
   display: inline;
   margin: 0px 10px;
-  font-size: 16px;
+  font-size: 18px;
   cursor: pointer;
+  position: relative; /* Definir a posição como relativa */
+  overflow: hidden; /* Ocultar o conteúdo que se moverá com a animação */
 }
 
-#menu_options li:hover{
+
+#menu_options li::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px; /* Altura da linha */
+  background-color: #ff9900; /* Cor da linha */
+  transition: width 0.3s; /* Adicionar uma transição na largura */
+}
+
+#menu_options li:hover::before{
   border-bottom: #ffffff 2px solid;
+  width: 100%;
 }
 
 .submenu_div{
