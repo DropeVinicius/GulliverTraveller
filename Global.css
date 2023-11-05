@@ -800,3 +800,8 @@ footer {
       right: 0;
   }
 }
+
+.mb-2{
+  font-weight: 600;
+  font size: 30px; 
+}
