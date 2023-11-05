@@ -187,22 +187,7 @@ header {
   justify-content: space-between;
 }
 
-.card-hotel {
-  flex: 1;
-  margin: 10px;
-  padding: 20px;
-  border: 1px solid transparent;
-  border-radius: 10px;
-  text-align: center;
-  position: relative;
-}
 
-.card-hotel img {
-  max-width: 200px; /* Defina a largura das imagens como 100% */
-  height:auto;
-  max-height: 200px; /* Defina a altura máxima desejada para as imagens */
-  border-radius: 10px;
-}
 
 .card-section {
   display: flex;
@@ -212,17 +197,19 @@ header {
 
 .card-hotel {
   flex: 1;
-  margin: 10px;
-  padding: 20px;
+  margin: 2px;
+  padding: 5px;
   border: 1px solid transparent;
   border-radius: 10px;
+  border-color: #235213;
   text-align: center;
   position: relative;
 }
 
 .card-hotel img {
-  max-width: 100%;
+  max-width: 100%; /* Defina a largura das imagens como 100% */
   height: auto;
+  max-height: 100%;
   border-radius: 10px;
 }
 
@@ -781,7 +768,7 @@ footer {
   .submit button {
       border: none !important;
       max-width: 206px !important;
-      background-color:#553596 !important;
+      background-color:#449926 !important;
       color: #fff !important;
       width: 100%;
       margin:0 auto;
