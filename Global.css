@@ -133,6 +133,7 @@ header {
   display: flex;
   justify-content: center;
   font-weight: 900;
+  height: 50px;
 }
 
 .mobile_view{
@@ -283,13 +284,14 @@ p {
 
 .h1-icon {
    margin-left: 10px;
+   height: 40px;
 }
 
 
 .header_div{
   padding: 20px 35px;
   width: 100%;
-  height: 100%;
+  height: 50%;
   display: flex;
   justify-content: space-between;
 }
@@ -301,6 +303,7 @@ p {
   cursor: pointer;
   position: relative; /* Definir a posição como relativa */
   overflow: hidden; /* Ocultar o conteúdo que se moverá com a animação */
+  text-align: center;
 }
 
 
