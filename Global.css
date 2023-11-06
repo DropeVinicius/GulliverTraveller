@@ -870,13 +870,14 @@ footer {
 }
 
 .newsletter .email button{
-  padding: 8px 12px;
+  padding: 16px 16px;
   cursor: pointer;
   border-radius: 50px;
   border: 1px solid gray;
   outline: none;
   background: #449926;
   transition: 0.3s;
+  color: #FFF;
 }
 
 .newsletter .email button:hover {
