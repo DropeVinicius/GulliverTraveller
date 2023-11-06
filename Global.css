@@ -399,7 +399,8 @@ p {
 
 .banner{
   height: 300px;
-  background-color: rgb(216, 239, 208);
+  background-image: url(./images/main/bannerdecolar.webp),linear-gradient(90deg, #307219 0%, #307219 100%);
+  padding: 16px 0;
 }
 
 .banner img{
