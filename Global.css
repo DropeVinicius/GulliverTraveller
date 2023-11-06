@@ -399,6 +399,7 @@ p {
 
 .banner{
   height: 300px;
+  background-color: rgb(216, 239, 208);
 }
 
 .banner img{
