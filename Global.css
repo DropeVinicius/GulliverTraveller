@@ -836,7 +836,7 @@ footer {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding: 80px;
+  padding: 75px;
 }
 
 .newsletter h1{
@@ -844,7 +844,6 @@ footer {
   font-weight: 600px;
   color: #449926;
   margin-bottom: 20px;
-  
 }
 
 .newsletter p {
@@ -882,6 +881,8 @@ footer {
   background: #449926;
   transition: 0.3s;
   color: #FFF;
+  margin-top: 20px;
+  display: flex; 
 }
 
 .newsletter .email button:hover {
