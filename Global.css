@@ -258,7 +258,19 @@ p {
   transition: background-color 0.3s;
 }
 
-.btn:hover {
+.btn-2 {
+  background-color: #235213;
+  color: #fff;
+  border: none;
+  border-radius: 22px;
+  padding: 6px 20px;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+
+.btn-2:hover {
   background-color: #569e3e;
 }
 
