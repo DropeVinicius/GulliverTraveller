@@ -350,10 +350,7 @@ p {
   font-weight: bold;
   font-size: 30px;
 }
-.container-newsletter {
-  box-sizing: border-box;
-  padding: 50px;
-}
+
 .input-wrapper { 
   padding: 8px 12px;
   display: flex; 
