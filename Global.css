@@ -755,6 +755,13 @@ footer {
   padding-bottom: 80px;
 }
 
+.button-newsletter{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
 .icons {
   width: 20px;
   height: 20px;
