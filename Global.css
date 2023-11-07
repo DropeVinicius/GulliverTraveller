@@ -527,6 +527,7 @@ footer {
   display: flex;
   gap: 2rem;
   margin-top: 1.5rem;
+  display: none;
 }
 
 #footer_social_media .footer-link {
