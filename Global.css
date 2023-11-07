@@ -830,7 +830,7 @@ footer {
   font-size: 30px; 
 }
 
-.newsletter{
+/* .newsletter{
   width: 100%;
   display: flex;
   justify-content: center;
@@ -869,7 +869,7 @@ footer {
 
 .newsletter .email i{
   position: absolute;
-  margin-top: 16px;
+  margin-top: 35px;
   left: 20px;
 }
 
@@ -883,9 +883,8 @@ footer {
   transition: 0.3s;
   color: #FFF;
   margin-top: 20px;
-  display: flex; 
 }
 
 .newsletter .email button:hover {
   background: #235213;
-}
+} */
