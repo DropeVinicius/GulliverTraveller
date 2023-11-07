@@ -527,7 +527,7 @@ footer {
   display: flex;
   gap: 2rem;
   margin-top: 1.5rem;
-  display: none; /* ocultando midias sociais do footer da pagina hospedagem */
+   /* ocultando midias sociais do footer da pagina hospedagem */
 }
 
 #footer_social_media .footer-link {
