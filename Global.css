@@ -95,8 +95,8 @@
   }
 
   .about_image_holder img{
-    margin: 100px 0px 0px -10px;
-    height: 300px !important;
+    margin: 100px 0px 0px -10px;  /*Margin da imagem gulliver vetor no mobile*/
+    height: 300px !important;    /* Altura da imagem gulliver vetor no mobile */
   }
 
   .about_text_div{
