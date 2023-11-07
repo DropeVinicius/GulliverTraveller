@@ -465,7 +465,7 @@ p {
 }
 
 .about_image_holder img{
-  height: 300px;
+  height: 350px;
 }
 
 .about_text_div{
@@ -548,7 +548,7 @@ footer {
   opacity: 0.8;
 }
 
-#instagram {
+/* #instagram {
   background: linear-gradient(#7f37c9, #ff2992, #ff9807);
 }
 
@@ -558,7 +558,7 @@ footer {
 
 #whatsapp {
   background-color: #25d366;
-}
+} */
 
 .footer-list {
   display: flex;
