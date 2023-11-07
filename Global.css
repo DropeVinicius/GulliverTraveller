@@ -317,16 +317,6 @@ p {
   text-align: center;
 }
 
-#menu_options li {
-  display: inline;
-  margin: 0px 10px;
-  font-size: 18px;
-  cursor: pointer;
-  position: relative;
-  overflow: hidden;
-  text-align: center;
-}
-
 #menu_options li::before {
   content: "";
   position: absolute;
@@ -334,37 +324,15 @@ p {
   left: 0;
   width: 0;
   height: 2px;
-  background-color: #ff9900;
+  background-color: #22b54a;
   transition: width 0.3s;
 }
 
-#menu_options li.login::before {
-  background-color: #aaafaa;
-}
-
-#menu_options li.login:hover::before {
+#menu_options li:hover::before {
   border-bottom: #ffffff 2px solid;
   width: 100%;
 }
 
-#menu_options li.cadastro {
-  display: inline;
-  margin: 0px 10px;
-  font-size: 18px;
-  cursor: pointer;
-  position: relative;
-  overflow: hidden;
-  text-align: center;
-  border-radius: 10px;
-  color: white; /* Cor de fonte inicial branca para o botão "Cadastre-se" */
-  transition: color 0.3s, transform 0.2s; /* Adicionar transições de cor e transformação */
-}
-
-#menu_options li.cadastro:hover {
-  transform: scale(1.1); /* Aumentar ligeiramente o tamanho do botão "Cadastre-se" ao passar o mouse */
-  color: #307219; /* Alterar a cor da fonte para verde ao passar o mouse */
-  background-color: white; /* Manter o box branco ao passar o mouse */
-}
 
 .submenu_div{
   margin-top: 10px;
