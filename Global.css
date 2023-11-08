@@ -381,7 +381,7 @@ p {
 }
 
 .input-wrapper { 
-  padding: 8px 12px;
+  padding: 1px 12px;
   display: flex; 
   align-items: center;
   gap: 6px;
