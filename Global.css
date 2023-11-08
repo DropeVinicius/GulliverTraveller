@@ -853,23 +853,40 @@ footer {
   margin-bottom: 20px;
  }
 
- .newsletter-section input[type="email"] {
-  width: 100%;
+ .custom-newsletter-section {
+  display: flex;
+  align-items: center;
+}
+
+.custom-newsletter-section {
+  display: flex;
+  align-items: center;
+}
+
+.custom-newsletter-section {
+  display: flex;
+  align-items: center;
+}
+
+.custom-newsletter-section input[type="text"] {
+  flex: 1;
   padding: 12px 20px;
   margin: 8px 0;
   box-sizing: border-box;
- }
+  border-radius: 5px;
+}
 
- .newsletter-section input[type="submit"] {
+.custom-newsletter-section input[type="submit"] {
   background-color: #4CAF50;
   color: white;
-  padding: 14px 20px;
+  height: 37px; /* Defina a altura do botão para 37px */
+  padding: 0 20px; /* Ajuste o preenchimento horizontal para manter o tamanho do botão */
   margin: 8px 0;
   border: none;
   cursor: pointer;
-  width: 100%;
- }
+  border-radius: 5px;
+}
 
- .newsletter-section input[type="submit"]:hover {
+.custom-newsletter-section input[type="submit"]:hover {
   opacity: 0.8;
- }
+}
