@@ -151,7 +151,7 @@ header {
 
 .card-hotel {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  text-align: center;
+  text-align: left;
   position: relative;
   transition: transform 0.3s ease; /* Animacao de zoom suave para a imagem */
   border-radius: 10px; /* Adiciona um border-radius sutil aos cards */
@@ -172,7 +172,7 @@ header {
 .card-description {
   width: 100%;
   background-color: white; /* Fundo branco para a área de descrição */
-  padding: 3px; /* Ajuste o tamanho da descrição aqui (padding) */
+  padding-bottom: 3.5%; /* Ajuste o tamanho da descrição aqui (padding) */
   position: absolute;
   bottom: 0; /* Descrição fixa abaixo do card */
   left: 0;
@@ -196,11 +196,11 @@ header {
 
 .card-hotel {
   flex: 1;
-  margin: 4px;
+  margin: 6px;
   padding: 5px;
   border: 1px solid transparent;
   border-radius: 10px;
-  border-color: #235213;
+  border-color: #d9d9d9;
   text-align: center;
   position: relative;
 }
