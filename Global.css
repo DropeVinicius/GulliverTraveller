@@ -223,6 +223,10 @@ header {
   .card-hotel {
     margin: 15px;
   }
+
+  .card-container{
+  display: inherit;
+  }
 }
 
 .card-hotel img {
@@ -466,11 +470,10 @@ p {
 }
 
 .image_subtitle {
-  font-size: 22px;
+  font-size: 18px;
   display: flex;
   justify-content: center;
-  color: #474747;
-  font-weight: bold;
+  color: #1f1f1f;
   text-align: center;
 }
 
