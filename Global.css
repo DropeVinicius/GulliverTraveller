@@ -196,13 +196,18 @@ header {
 
 .card-hotel {
   flex: 1;
-  margin: 2px;
+  margin: 4px;
   padding: 5px;
   border: 1px solid transparent;
   border-radius: 10px;
   border-color: #235213;
   text-align: center;
   position: relative;
+}
+@media (max-width: 768px) {
+  .card-hotel{
+    margin: 15px;
+  }
 }
 
 .card-hotel img {
@@ -227,10 +232,23 @@ h1 {
 
 h3 {
   font-size: 24px;
-  margin: 5px ;
+  margin: 5px;
   padding: 40px;
   font-weight: bold;
+  text-align: center; /* Centralizar o texto horizontalmente */
 }
+
+/* Media query para dispositivos móveis (por exemplo, largura máxima de 768px) */
+@media (max-width: 768px) {
+  h3 {
+    padding: 65px; /* Reduzir o padding para dispositivos móveis */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center; /* Centralizar o texto vertical e horizontalmente */
+  }
+}
+
 
 p {
   margin: 10px 0;
