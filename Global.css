@@ -1,87 +1,87 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&display=swap');
 
 @media only screen and (max-width: 800px) {
-  h1{
+  h1 {
     font-size: 15px !important;
   }
-  
-  .mobile_view{
-  display: block !important;
+
+  .mobile_view {
+    display: block !important;
   }
 
-  .header_div{
+  .header_div {
     padding: 20px 20px !important;
   }
 
-  #menu_option_holder{
+  #menu_option_holder {
     display: none !important;
   }
-  
-  .header_div{
+
+  .header_div {
     justify-content: center !important;
     align-items: center;
   }
 
-  .dropdown_menu{
+  .dropdown_menu {
     font-size: 25px;
     display: block !important;
     align-self: center;
   }
 
-  .submenu{
+  .submenu {
     margin: 8px 0px;
     overflow: scroll;
     height: 25px;
     display: block !important;
   }
 
-  .submenu_div .arrow{
+  .submenu_div .arrow {
     margin-top: -15px;
   }
-  
 
-  .submenu_list{
+
+  .submenu_list {
     white-space: nowrap;
     text-align: center;
   }
 
-  .submenu_icon{
+  .submenu_icon {
     margin: auto;
-    
+
   }
 
-  .submenu_icon{
+  .submenu_icon {
     font-size: 12px !important;
     display: flex;
   }
 
-  .banner{
+  .banner {
     height: unset !important;
   }
 
-  .scroll_div{
+  .scroll_div {
     width: 100%;
     height: 320px;
     overflow-x: scroll;
     overflow-y: hidden;
   }
 
-  .mais_buscados_section .arrow{
+  .mais_buscados_section .arrow {
     font-size: 25px;
   }
 
-  .mais_buscados_div{
+  .mais_buscados_div {
     width: fit-content !important;
     height: 270px;
   }
 
-  .image_holder img{
+  .image_holder img {
     width: 200px !important;
     height: 200px !important;
     margin: 0px 20px;
   }
 
-  .about{
+  .about {
     display: block !important;
     height: unset !important;
     padding: 20px 10px !important;
@@ -94,35 +94,37 @@
     width: unset !important;
   }
 
-  .about_image_holder img{
-    margin: 100px 0px 0px -10px;  /*Margin da imagem gulliver vetor no mobile*/
-    height: 300px !important;    /* Altura da imagem gulliver vetor no mobile */
+  .about_image_holder img {
+    margin: 100px 0px 0px -10px;
+    /*Margin da imagem gulliver vetor no mobile*/
+    height: 300px !important;
+    /* Altura da imagem gulliver vetor no mobile */
   }
 
-  .about_text_div{
+  .about_text_div {
     width: unset !important;
     margin: 20px 0px 0px 0px !important;
     padding: 0px 30px !important;
   }
 
-  .about_text_div p{
+  .about_text_div p {
     font-size: 20px !important;
   }
 }
 
-*{
+* {
   font-family: 'Days One', sans-serif !important;
 }
 
-h1{
+h1 {
   font-size: 24px;
 }
 
-h2{
+h2 {
   font-size: 25px;
   margin: 40px;
   font: 900;
-  font-weight:bold;
+  font-weight: bold;
 }
 
 header {
@@ -136,7 +138,7 @@ header {
   height: 50px;
 }
 
-.mobile_view{
+.mobile_view {
   display: none;
 }
 
@@ -144,40 +146,52 @@ header {
 .card-container {
   font-weight: bold;
   display: flex;
-  justify-content: center; /* Centralizar os cards */
+  justify-content: center;
+  /* Centralizar os cards */
   flex-wrap: wrap;
-  gap: 40px; /* Espaço entre os cards */
+  gap: 40px;
+  /* Espaço entre os cards */
 }
 
 .card-hotel {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   text-align: left;
   position: relative;
-  transition: transform 0.3s ease; /* Animacao de zoom suave para a imagem */
-  border-radius: 10px; /* Adiciona um border-radius sutil aos cards */
+  transition: transform 0.3s ease;
+  /* Animacao de zoom suave para a imagem */
+  border-radius: 10px;
+  /* Adiciona um border-radius sutil aos cards */
 }
 
 .card-hotel:hover {
-  transform: scale(1.05); /* Efeito de zoom suave ao passar o mouse na imagem */
+  transform: scale(1.05);
+  /* Efeito de zoom suave ao passar o mouse na imagem */
 }
 
 .card img {
   width: 100%;
-  height: 100%; /* Altura e largura 100% para preencher o card */
-  transition: transform 0.3s ease; /* Animacao de zoom suave para a imagem */
-  border-radius: 10px; /* Adiciona um border-radius sutil às imagens */
+  height: 100%;
+  /* Altura e largura 100% para preencher o card */
+  transition: transform 0.3s ease;
+  /* Animacao de zoom suave para a imagem */
+  border-radius: 10px;
+  /* Adiciona um border-radius sutil às imagens */
 }
 
 
 .card-description {
   width: 100%;
-  background-color: white; /* Fundo branco para a área de descrição */
-  padding-bottom: 3.5%; /* Ajuste o tamanho da descrição aqui (padding) */
+  background-color: white;
+  /* Fundo branco para a área de descrição */
+  padding-bottom: 3.5%;
+  /* Ajuste o tamanho da descrição aqui (padding) */
   position: absolute;
-  bottom: 0; /* Descrição fixa abaixo do card */
+  bottom: 0;
+  /* Descrição fixa abaixo do card */
   left: 0;
   right: 0;
-  border-radius: 7px; /* Adiciona um border-radius sutil à descrição */
+  border-radius: 7px;
+  /* Adiciona um border-radius sutil à descrição */
 }
 
 .card-section {
@@ -204,20 +218,22 @@ header {
   text-align: center;
   position: relative;
 }
+
 @media (max-width: 768px) {
-  .card-hotel{
+  .card-hotel {
     margin: 15px;
   }
 }
 
 .card-hotel img {
-  max-width: 100%; /* Defina a largura das imagens como 100% */
+  max-width: 100%;
+  /* Defina a largura das imagens como 100% */
   height: auto;
   max-height: 100%;
   border-radius: 10px;
 }
 
-.card-title{
+.card-title {
   font-size: 18px;
   font-weight: normal;
 }
@@ -235,17 +251,20 @@ h3 {
   margin: 5px;
   padding: 40px;
   font-weight: bold;
-  text-align: center; /* Centralizar o texto horizontalmente */
+  text-align: center;
+  /* Centralizar o texto horizontalmente */
 }
 
 /* Media query para dispositivos móveis (por exemplo, largura máxima de 768px) */
 @media (max-width: 768px) {
   h3 {
-    padding: 65px; /* Reduzir o padding para dispositivos móveis */
+    padding: 65px;
+    /* Reduzir o padding para dispositivos móveis */
     display: flex;
     align-items: center;
     justify-content: center;
-    text-align: center; /* Centralizar o texto vertical e horizontalmente */
+    text-align: center;
+    /* Centralizar o texto vertical e horizontalmente */
   }
 }
 
@@ -294,11 +313,13 @@ p {
 @media (max-width: 768px) {
   .card-hotel {
     width: 100%;
-    max-width: 100%; /* Remova a largura máxima para dispositivos móveis */
+    max-width: 100%;
+    /* Remova a largura máxima para dispositivos móveis */
   }
-  
+
   .card-hotel img {
-    max-height: none; /* Remova a altura máxima para dispositivos móveis */
+    max-height: none;
+    /* Remova a altura máxima para dispositivos móveis */
   }
 
 }
@@ -312,12 +333,12 @@ p {
 }
 
 .h1-icon {
-   margin-left: 10px;
-   height: 40px;
+  margin-left: 10px;
+  height: 40px;
 }
 
 
-.header_div{
+.header_div {
   padding: 20px 35px;
   width: 100%;
   height: 50%;
@@ -352,11 +373,11 @@ p {
 }
 
 
-.submenu_div{
+.submenu_div {
   margin-top: 10px;
 }
 
-.submenu{
+.submenu {
   text-align: center;
   width: 100%;
   display: flex;
@@ -374,22 +395,23 @@ p {
   cursor: pointer;
   background-color: #dddddd;
 }
+
 .container {
   background-color: transparent;
   font-weight: bold;
   font-size: 30px;
 }
 
-.input-wrapper { 
+.input-wrapper {
   padding: 1px 12px;
-  display: flex; 
+  display: flex;
   align-items: center;
   gap: 6px;
   background-color: #D9D9D9;
   border-radius: 16px;
 }
 
-.input-wrapper i{
+.input-wrapper i {
   color: #FFF;
   cursor: pointer;
 }
@@ -405,7 +427,7 @@ p {
   outline: none;
 }
 
-.search_input{
+.search_input {
   width: 350px;
   background-color: #D9D9D9;
   border: none;
@@ -414,36 +436,36 @@ p {
   padding: 6px 12px;
 }
 
-.banner{
+.banner {
   height: 300px;
-  background-image: url(./images/main/bannerdecolar.webp),linear-gradient(90deg, #307219 0%, #307219 100%);
+  background-image: url(./images/main/bannerdecolar.webp), linear-gradient(90deg, #307219 0%, #307219 100%);
   padding: 16px 0;
   border-top: solid 1px #CCCCCC;
   background-size: 68% auto;
 }
 
-.banner img{
+.banner img {
   object-fit: fill;
   width: 75%;
 }
 
-.scroll_div{
+.scroll_div {
   width: 100%;
 }
 
-.mais_buscados_div{
+.mais_buscados_div {
   width: 100%;
 }
 
 
 
-.image_holder img{
+.image_holder img {
   background-color: aqua;
   height: 14vw;
   width: 14vw;
 }
 
-.image_subtitle{
+.image_subtitle {
   font-size: 22px;
   display: flex;
   justify-content: center;
@@ -452,7 +474,7 @@ p {
   text-align: center;
 }
 
-.saiba_mais{
+.saiba_mais {
   width: fit-content;
   padding: 7px 40px;
   margin: 8px auto 0px auto;
@@ -463,11 +485,11 @@ p {
   border: 0;
 }
 
-.saiba_mais:hover{
+.saiba_mais:hover {
   background-color: #235213;
 }
 
-.about{
+.about {
   margin-top: 100px;
   background-color: #449926;
   height: 350px;
@@ -476,15 +498,16 @@ p {
 }
 
 
-.about_image_holder img{
+.about_image_holder img {
   height: 350px;
 }
 
-.about_text_div{
+.about_text_div {
   width: 40%;
   margin-left: 150px;
 }
-.about_text_div p{
+
+.about_text_div p {
   font-size: 18px;
 }
 
@@ -495,7 +518,7 @@ p {
   --color-neutral-40: #f5f5f5;
 }
 
-footer { 
+footer {
   width: 100%;
   text-justify: auto;
   text-align: center;
@@ -520,14 +543,16 @@ footer {
   font-weight: bold;
   font-size: 16px;
 }
-#footer_contacts p{
+
+#footer_contacts p {
   color: #1f1f1f;
 }
+
 #footer_social_media {
   display: flex;
   gap: 2rem;
   margin-top: 1.5rem;
-   /* ocultando midias sociais do footer da pagina hospedagem */
+  /* ocultando midias sociais do footer da pagina hospedagem */
 }
 
 #footer_social_media .footer-link {
@@ -540,6 +565,7 @@ footer {
   border-radius: 50%;
   transition: all 0.4s;
 }
+
 #footer_social_media .footer-link i {
   font-size: 1.25rem;
 }
@@ -559,7 +585,7 @@ footer {
 
 #whatsapp {
   background-color: #25d366;
-} 
+}
 
 .footer-list {
   display: flex;
@@ -567,6 +593,7 @@ footer {
   gap: 0.75rem;
   list-style: none;
 }
+
 .footer-list h3 {
   color: #1f1f1f;
   font-weight: bold;
@@ -630,14 +657,14 @@ footer {
 }
 
 @media screen and (max-width:768px) {
-  #footer_content{
+  #footer_content {
     grid-template-columns: repeat(2, 1fr);
     gap: 2rem;
   }
 }
 
 @media screen and (max-width:426px) {
-  #footer_content{
+  #footer_content {
     grid-template-columns: repeat(1, 1fr);
     padding: 3rem 2rem;
   }
@@ -652,23 +679,29 @@ footer {
 
 .avaliacao-box {
   display: flex;
-  justify-content: center; /* Centralizar horizontalmente */
-  align-items: center; /* Centralizar verticalmente */
-  margin-top: 10px; /* Espaçamento superior para separar dos elementos acima */
+  justify-content: center;
+  /* Centralizar horizontalmente */
+  align-items: center;
+  /* Centralizar verticalmente */
+  margin-top: 10px;
+  /* Espaçamento superior para separar dos elementos acima */
 }
 
 
-#slider-banner{
+#slider-banner {
   max-height: 274px;
   z-index: 1;
   position: relative;
 }
-#slider-banner .carousel-inner{
+
+#slider-banner .carousel-inner {
   background-image: url('../images/filet.jpg');
 }
-#slider-banner .carousel-inner .carousel-item img{
+
+#slider-banner .carousel-inner .carousel-item img {
   height: 274px;
 }
+
 #search {
   height: 36px;
   margin-top: -20px;
@@ -676,9 +709,11 @@ footer {
   position: relative;
   background-color: #fff;
 }
+
 #search input {
   border: none;
 }
+
 #promocoes img {
   width: 100%;
   height: 100%;
@@ -717,7 +752,7 @@ footer {
   margin-bottom: 8px;
 }
 
-.trendy-content > p {
+.trendy-content>p {
   margin-bottom: 32px;
   font-size: 20px;
   font-weight: 400;
@@ -774,7 +809,7 @@ footer {
   height: 20px;
   top: 18px;
   bottom: 18px;
-  
+
   pointer-events: none;
   display: block;
 }
@@ -782,55 +817,61 @@ footer {
 .nav-item {
   display: flex;
 }
-.nav-item .icons{
+
+.nav-item .icons {
   position: relative;
-  top:0;
+  top: 0;
   bottom: 0;
 }
+
 @media screen and (max-width: 991px) {
   #search {
-      height: auto;
-      outline: none !important;
+    height: auto;
+    outline: none !important;
   }
+
   #search input {
-      border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
   }
+
   #slider-banner .carousel-inner .carousel-item img {
-      height: auto;
-      max-width: 100%;
+    height: auto;
+    max-width: 100%;
   }
+
   .submit {
-      position: relative !important;
+    position: relative !important;
   }
+
   .submit button {
-      border: none !important;
-      max-width: 206px !important;
-      background-color:#449926 !important;
-      color: #fff !important;
-      width: 100%;
-      margin:8px auto;
-      display: block;
-      margin-top: 6px;
-      border-radius: 5px;
+    border: none !important;
+    max-width: 206px !important;
+    background-color: #449926 !important;
+    color: #fff !important;
+    width: 100%;
+    margin: 5px auto;
+    display: block;
+    margin-top: 6px;
+    border-radius: 5px;
   }
- 
-  #navbarSupportedContent{
-      width: 100%;
+
+  #navbarSupportedContent {
+    width: 100%;
   }
 }
 
 @media screen and (min-width: 992px) {
-  #searchInbanner button{
-      position: inherit;
-      right: 0;
-      margin: auto;
-      border-radius: 5px;
+  #searchInbanner button {
+    position: inherit;
+    right: 0;
+    margin: auto;
+    border-radius: 5px;
   }
 }
 
-.mb-2{
+.mb-2 {
   font-weight: 600;
-  font-size: 30px; 
+  font-size: 30px;
 }
 
 .newsletter-section {
@@ -839,19 +880,19 @@ footer {
   padding: 20px;
   box-sizing: border-box;
   text-align: center;
- }
+}
 
- .newsletter-section h1 {
+.newsletter-section h1 {
   font-size: 24px;
   margin-bottom: 10px;
- }
+}
 
- .newsletter-section p {
+.newsletter-section p {
   font-size: 16px;
   margin-bottom: 20px;
- }
+}
 
- .custom-newsletter-section {
+.custom-newsletter-section {
   display: flex;
   align-items: center;
 }
@@ -877,8 +918,10 @@ footer {
 .custom-newsletter-section input[type="submit"] {
   background-color: #4CAF50;
   color: white;
-  height: 37px; /* Defina a altura do botão para 37px */
-  padding: 0 20px; /* Ajuste o preenchimento horizontal para manter o tamanho do botão */
+  height: 37px;
+  /* Defina a altura do botão para 37px */
+  padding: 0 20px;
+  /* Ajuste o preenchimento horizontal para manter o tamanho do botão */
   margin: 8px 0;
   border: none;
   cursor: pointer;
