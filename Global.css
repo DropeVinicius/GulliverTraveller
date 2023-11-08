@@ -435,9 +435,7 @@ p {
   width: 100%;
 }
 
-.image_holder{
 
-}
 
 .image_holder img{
   background-color: aqua;
@@ -477,8 +475,6 @@ p {
   color: #fff;
 }
 
-.about_image_holder{
-}
 
 .about_image_holder img{
   height: 350px;
