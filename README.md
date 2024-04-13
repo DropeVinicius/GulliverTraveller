@@ -1,4 +1,5 @@
-API de Hotéis:
+# Gulliver Traveller
+- API de Hotéis:
 Esta API fornece informações sobre hotéis, incluindo seus nomes, localizações e preços.
 
 - Visão Geral
@@ -15,5 +16,3 @@ GET /hoteis/{id}: Retorna detalhes de um hotel específico com o ID fornecido.
 POST /hoteis: Adiciona um novo hotel à lista.
 PUT /hoteis/{id}: Atualiza os detalhes de um hotel existente.
 DELETE /hoteis/{id}: Remove um hotel da lista com o ID fornecido.
-
-# GulliverTraveller
