@@ -1,8 +1,10 @@
 # Gulliver Traveller
+O Gulliver Traveller é um projeto que ajuda pessoas a terem a melhor experiência com a sua viagem. O projeto possui 4 horas sendo a hospedagem, o aluguel de carros, os restaurantes e os pontos turísticos, para que ele possa escolher pelas melhores opções do seu destino, tornando uma experiência completa.
+
 - API de Hotéis:
 Esta API fornece informações sobre hotéis, incluindo seus nomes, localizações e preços.
 
-- Visão Geral
+- Visão Geral: 
 A API de Hotéis foi desenvolvida para fornecer uma maneira simples e eficaz de acessar informações sobre diferentes hotéis. Ela permite listar todos os hotéis disponíveis, obter detalhes de um hotel específico, adicionar novos hotéis, atualizar informações de hotéis existentes e remover hotéis da lista.
 
 - Tecnologias:
